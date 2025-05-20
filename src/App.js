@@ -1,13 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import  Counter  from './component/Counter'
-import Users from './component/Users';
+// import ComplaintLists from './component/Complaints/ComplaintLists';
+import RockPaperScissors from './component/Games/RockPaperScissors';
 
 function App() {
   return (
        <div >
   {/*< Counter />*/}
-  <Users />
+  {/*<Users />*/}
+  {/* <ComplaintLists/> */}
+  <RockPaperScissors/>
     </div>
   
    

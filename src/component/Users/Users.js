@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { fetchUsers } from '../redux/userSlice'
+import { fetchUsers } from '../../redux/Slice/userSlice'
 
 
 import React, { useEffect } from 'react'
